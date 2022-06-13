@@ -1,0 +1,246 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* ============ NAVIGATION ============ */
+
+.logo{
+    width:60px;
+    height:40px;
+    border-radius: 10%;
+}
+
+.navigation{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    color:white;
+    background-color: rgb(18, 18, 18);
+    
+}
+
+.navigation li{
+    list-style-type: none;
+
+}
+.navigation li a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.select{
+    background-color: transparent;
+    color:white;
+    border:none;
+    font-weight: bold;
+}
+
+/* ============ search bar============ */
+
+.search-bar{
+    display: flex;
+  
+}
+.search-bar button{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.search-bar i{
+    color:gray;
+    background: white;
+    padding-top: 15px;
+    padding-right: 15px;
+   
+}
+
+.search{
+    border: none;
+    width: 350px;
+}
+
+
+
+/* ========header========== */
+
+.header{
+    padding: 10px 100px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.general-info{
+    display: flex;
+    justify-content: space-between;
+}
+.ratings{
+    display: flex;
+}
+
+.ratings div{
+    margin-right: 20px;
+}
+
+.ratings div  p{
+    text-transform: uppercase;
+}
+
+.rate i{
+    color:yellow;
+}
+.rate span a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.rate-blue span a{
+    color:rgb(87, 153, 239);
+}
+.rate-blue i{
+    color:rgb(87, 153, 239);
+}
+.header h1{
+    font-size: 40px;
+    
+}
+
+.episodes{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52, 52, 52);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.episodes a{
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+   
+}
+
+/* ======== MAIN SECTION ============= */
+
+.main-section{
+
+    padding: 10px 100px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+
+}
+/* central section  */
+.media{
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+}
+.cover-img{
+    margin-right: 10px;
+    width: 250px;
+    height: 400px;
+}
+
+iframe{
+    width:600px;
+     height:400px;
+}
+
+
+.other div{
+    margin:5px 0;
+    padding: 60px 40px;
+    background-color: rgb(62, 62, 62);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.other a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.other i{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button{
+    background: transparent;
+    border:1px solid white;
+    border-radius: 40%;
+    padding: 10px;
+}
+
+.buttons button a{
+    text-decoration: none;
+    color:white;
+}
+
+/* =============description================= */
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.creators-stars{
+    width: 700px;
+}
+.creators-stars div{
+    display: flex;
+    border-bottom: 1px solid #888888;
+}
+.creators-stars li{
+    margin: 20px;
+    list-style-type: none;
+}
+
+.creators-stars a,.season-premiere a{
+    text-decoration: none;
+    color:rgb(87, 153, 239);
+}
+
+.creators-stars img{
+    width: 54px;
+    height: 40px;
+}
+
+.season-premiere button{
+    padding: 15px 120px 15px 15px;
+    background-color: rgb(62, 62, 62);
+    border:none;
+    border-radius: 5px;
+}
+
+.season-premiere button a{
+    color:white;
+}
+.arrow{
+    padding: 12px;
+    background-color: rgb(62, 62, 62);
+}
+
+.arrow i{
+    color:white;
+}
+
+.yellow-border{
+    padding-left: 10px;
+    border-left: 3px solid yellow;
+    
+}

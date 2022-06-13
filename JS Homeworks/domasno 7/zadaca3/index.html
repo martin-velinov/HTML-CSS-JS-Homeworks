@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Enter new basketball player info</h2>
+
+    <form action="#" id="form">
+        <label for="name">Enter name</label>
+        <input id="user_name" type="text">
+        <label for="surname">Enter surname</label>
+        <input id="user_surname" type="text">
+        <label for="age">Enter age</label>
+        <input id="user_age" type="number">
+        <label for="height">Enter height</label>
+        <input id="user_height" type="number">
+        <input class="button" type="submit" value="Submit" onclick="getUserData()">
+    </form>
+
+    <h2>filter basketball players by height</h2>
+    <p>enter a height you want the players to be taller than</p>
+    <label for="height">Enter height</label>
+    <input id="height_filter" type="number">
+    <input class="button" type="submit" value="Submit" onclick="getFilteredList()">
+
+
+    <script src="script.js"></script>
+</body>
+</html>

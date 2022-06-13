@@ -1,0 +1,795 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+section,footer{
+    padding: 0px 100px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 1.6;
+}
+h2{
+    font-size: 32px;
+    padding: 5px;
+    border-left:4px solid rgb(245, 197, 24);
+}
+
+.flex-title{
+    display: flex;
+}
+
+.flex-title p{
+    height: 20%;
+    padding-top: 25px; 
+    padding-left: 25px;
+}
+
+/* ============ NAVIGATION ============ */
+
+.logo{
+    width:60px;
+    height:40px;
+    border-radius: 10%;
+}
+
+.navigation{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    color:white;
+    background-color: rgb(18, 18, 18);
+    
+}
+
+.navigation li{
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+.navigation li a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.navigation li a:hover{
+    background-color: #2e2e2e;;
+    
+}
+
+.select{
+    background-color: transparent;
+    color:white;
+    border:none;
+    font-weight: bold;
+}
+
+/* ============ search bar============ */
+
+.search-bar{
+    display: flex;
+  
+}
+.search-bar button{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.search-bar i{
+    color:gray;
+    background: white;
+    padding-top: 15px;
+    padding-right: 15px;
+   
+}
+
+.search{
+    border: none;
+    width: 350px;
+}
+
+
+
+/* ========header========== */
+
+.header{
+    padding: 10px 100px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.general-info{
+    display: flex;
+    justify-content: space-between;
+}
+.ratings{
+    display: flex;
+}
+
+.ratings div{
+    margin-right: 20px;
+}
+
+.ratings div  p{
+    text-transform: uppercase;
+}
+
+.rate i{
+    color:yellow;
+}
+.rate span a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.rate{
+    padding: 10px;
+    border-radius: 5px;
+}
+.rate:hover{
+    background-color: #2e2e2e;
+    
+}
+
+.rate-blue span a{
+    color:rgb(87, 153, 239);
+}
+.rate-blue i{
+    color:rgb(87, 153, 239);
+}
+.header h1{
+    font-size: 40px;
+    
+}
+
+.episodes{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52, 52, 52);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.episodes a{
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+   
+}
+
+.episodes a:hover{
+    text-decoration: underline;
+}
+
+/* ======== MAIN SECTION ============= */
+
+.main-section{
+
+    padding: 10px 100px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+
+}
+/* central section  */
+.media{
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+}
+.cover-img{
+    margin-right: 10px;
+    width: 250px;
+    height: 400px;
+}
+
+.iframe-top{
+    width:600px;
+     height:400px;
+}
+
+
+.other div{
+    margin:5px 0;
+    padding: 60px 40px;
+    background-color: rgb(62, 62, 62);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.other div:hover{
+    background-color: rgb(86, 86, 86); 
+    cursor: pointer;
+}
+
+.other a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.other i{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button{
+    background: transparent;
+    border:1px solid white;
+    border-radius: 40%;
+    padding: 10px;
+}
+
+.buttons button:hover{
+    background-color: #3f3f3f;
+}
+
+.buttons button a{
+    text-decoration: none;
+    color:white;
+}
+
+/* =============description================= */
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.creators-stars{
+    width: 700px;
+}
+.creators-stars div{
+    display: flex;
+    border-bottom: 1px solid #888888;
+}
+.creators-stars li{
+    margin: 20px;
+    list-style-type: none;
+}
+
+.creators-stars a,.season-premiere a{
+    text-decoration: none;
+    color:rgb(87, 153, 239);
+}
+
+.creators-stars a:hover,.season-premiere a:hover{
+    text-decoration: underline;
+}
+
+.creators-stars img{
+    width: 54px;
+    height: 40px;
+}
+
+.season-premiere button{
+    padding: 15px 120px 15px 15px;
+    background-color: rgb(62, 62, 62);
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.season-premiere button:hover{
+    background-color: rgb(98, 97, 97);
+}
+
+.season-premiere button a{
+    color:white;
+}
+.arrow{
+    padding: 12px;
+    background-color: rgb(62, 62, 62);
+}
+
+.arrow i{
+    color:white;
+}
+
+.yellow-border{
+    padding-left: 10px;
+    border-left: 3px solid yellow;
+    
+}
+
+/* <!-- =========EPISODES============= --> */
+
+
+.main-episodes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.episodes1{
+    display: flex;
+   
+}
+
+.episodes-1{
+    width: 65%;
+    
+}
+
+
+
+.episode{
+    margin-right: 40px;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+.episode>p{
+    line-height: 1.6;
+}
+
+
+.top-part{
+    display: flex;
+    
+}
+.top-part h6{
+    margin: 0px 0px 10px 0px;
+    padding: 4px;
+    background-color: rgb(245, 197, 24);
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.top-part span,p{
+    color: gray;
+}
+
+
+.episode-title a{ 
+   
+    font-weight: bold;
+    color:black;
+}
+
+.episode-title a:hover{
+    color:gray;
+}
+
+.title-episodes{
+    display: flex;
+    border:1px solid rgb(245, 197, 24);
+    border-radius: 5px;
+    padding: 15px;
+    color:black;
+   
+}
+
+.title-episodes a{
+    margin-right: 15px;
+    color:black;
+    font-weight: bold;
+}
+
+.episodes-bottom{
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.episodes-bottom li a{
+    color:rgb(66, 133, 219);
+    font-weight: bold;
+}
+.episodes-bottom li{
+    margin-right: 40px;
+}
+.black{
+    text-transform: uppercase;
+    color: black !important;
+    letter-spacing: 2px;
+}
+
+.episode-rate>span>i{
+    color:rgb(245, 197, 24);
+}
+
+.episode-rate a{
+    color:rgb(87, 153, 239);
+    margin: 20px;
+}
+
+.bookmark{
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 78% 100%, 50% 80%, 23% 100%, 0 100%);
+    background-color: #dddddd;
+    width: 30px;
+    height: 50px;
+}
+
+.bookmark:hover{
+    background-color: #c9c9c9;
+}
+
+.bookmark-plus{
+    position: absolute;
+    z-index: 11;
+    top: 10px;
+    left: 9px;
+}
+
+.yellow-title{
+    background-color: rgb(245, 197, 24);
+    clip-path: polygon(25% 0%, 100% 0, 91% 54%, 82% 100%, 0 100%, 0 0);
+    padding: 15px 25px;
+    margin-left: -15px;
+}
+
+.title-regular{
+    font-weight: normal!important;
+}
+
+.more-explore a{
+    color:rgb(87, 153, 239);
+}
+
+
+.explore img{
+    height: 200px;
+}
+
+.explore img:hover, .editorial-txt img:hover{
+   opacity: 0.9;
+   transform: scale(1.1);
+   transition-duration:0.2s;
+   transition-timing-function: ease-in-out;
+}
+
+
+/* <!-- ==========VIDEOS AND PHOTOS========== --> */
+
+
+.main-media{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.videos{
+    display: flex;
+}
+.videos>div{
+    width: 450px;
+}
+
+
+.videos p a{
+    color:gray;
+    
+}
+
+.editorial-txt{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+
+.editorial-title{
+    color:black;
+   
+}
+
+.editorial-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* <!-- ==========TOP CAST========== --> */
+
+.top-cast-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-cast{
+    margin-top: -250px;
+    width: 100%;
+}
+.cast{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px ;
+}
+
+.actor{
+    display: flex;
+}
+.actor img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.actor-title{
+    font-weight: bold;
+    color:black;
+}
+
+.actor-title:hover{
+    color:gray;
+}
+.actor a{
+    color:gray;
+
+}
+
+.actor a:hover{
+    text-decoration: underline;
+}
+.cast-info{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.cast-info {
+    border-top: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.cast-creators{
+    display: flex;
+}
+
+
+.legacy{
+    margin-top: 50px;
+    display: flex;
+    width: 70%;
+}
+
+/* <!-- =========MORE LIKE THIS================= --> */
+
+.more-carousel{
+    display: flex;
+}
+
+.more-carousel img{
+    height: 270px;
+    width: 180px;
+}
+
+.user-txt{
+    display: flex;
+}
+
+.user-card{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid rgb(188, 188, 188);
+}
+
+.more-card{
+    margin-right: 40px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.more-card button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.more-card button:hover{
+    background-color: #c9c9c9;
+}
+
+.more-card button a{
+    color: rgb(66, 133, 219);
+    font-weight: bold;
+    
+}
+
+
+
+.more-rating{
+    margin-top: 10px;
+}
+
+.more-rating i{
+    color:rgb(245, 197, 24);
+}
+
+.info-icon{
+    padding-bottom: 20px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: end;
+}
+
+.info-icon i{
+    color:#b1b1b1;
+}
+
+
+/* <!-- =========FAQ DETAILS AND OTHER================= --> */
+
+.other-wrapper{
+    margin-top: 100px;
+    display: flex;
+    width: 60%;
+}
+.other-text{
+    width: 50%;
+    margin-right: 40px;
+}
+.other-text a{
+    color: rgb(66, 133, 219);
+    
+}
+
+.other-img img{
+    height: 270px;
+    width: 500px;
+}
+
+.faq{
+    margin-top: 100px;
+    width: 70%;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: 1px solid rgb(206, 206, 206);
+    
+}
+
+.question a{
+    color:rgb(66, 133, 219);
+}
+
+.details-row{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(206, 206, 206);
+   
+   
+}
+
+.details-row>div{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-row p {
+    color: black;
+    font-weight: bold;
+}
+.details-row a{
+    margin-left: 20px;
+    color:rgb(66, 133, 219);
+}
+
+.contribute{
+    width: 70%;
+    margin-top: 100px;
+}
+
+.contribute p{
+    border-top: 1px solid rgb(206, 206, 206);
+}
+
+.contribute a{
+    color:black;
+    font-weight: bold;
+}
+.contribute-buttons{
+    margin-top: 50px;
+}
+.contribute-buttons button{
+    background-color: rgb(245, 197, 24);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 150px 10px 10px;
+}
+
+.contribute-buttons button:hover{
+    background-color: rgb(220, 177, 22);
+    cursor: pointer;
+}
+
+
+
+/* <!-- =========FOOTER================= --> */
+
+.footer-wrapper{
+    margin-top: 50px;
+    padding-top: 50px;
+    color:white;
+    background-color:rgb(31, 31, 31) ;
+}
+.footer-recent{
+    display: flex;
+    
+}
+.recent{
+    margin-right: 50px;
+}
+.recent p{
+    margin: 0;
+    padding: 10px;
+    color:white;
+    background-color: #242424;
+}
+.recent a{
+    color: white;
+}
+
+.recent a:hover,.footer-end a:hover{
+    text-decoration: underline;
+}
+
+.recent img{
+    width: 200px;
+    height: 300px;
+}
+
+.social-media{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media i{
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.footer-end a{
+    color:white;
+    margin: 10px;
+}
+.links-top {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.links-bottom {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rights{
+    display: flex;
+    justify-content: center;
+}

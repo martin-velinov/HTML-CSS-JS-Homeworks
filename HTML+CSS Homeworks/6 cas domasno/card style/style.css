@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+a,span{
+    text-decoration: none;
+    color:gray;
+}
+
+
+.single_item {
+    margin: 50px;
+    width: 400px;
+}
+.single_item img{
+    width: 400px;
+    height: 250px;
+}
+.single_item_bottom{
+    margin:0px 30px;
+}
+
+.author_date{
+    margin-top: 20px;
+}
+
+.link_holder a{
+    margin: 5px;
+}
+
+.title_description h2{
+    color:black;
+}
+
+.comments{
+    float: right;
+}
+
+i{
+    color: red;
+ }
+
+.tags a{
+    text-transform: uppercase;
+    color:black;
+}
+

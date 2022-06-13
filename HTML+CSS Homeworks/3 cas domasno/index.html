@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Welcome to our site!</h1>
+    <p>Fill out the form to register</p>
+
+    <form >
+        <fieldset>
+            <legend><h2>Register:</h2></legend><br>
+            <fieldset>
+                <legend><h3>General info:</h3></legend><br>
+                <label for="fname">First name:</label><br>
+                <input type="text"  name="name" ><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text"  name="name" ><br><br>
+                <label for="e-mail">Email</label><br>
+                  <input type="email" name="password"><br><br>
+                  <label for="password">Password</label><br>
+                  <input type="password" name="password"><br><br>
+                  <label for="message">Message</label><br>
+                <textarea name="message" style="width:400px; height:200px;"></textarea><br>
+                
+      
+              </fieldset>
+              <br>
+              <fieldset>
+                  <legend><h3>Extras:</h3></legend>
+                  <input type="checkbox"  name="newsletter" >
+                  <label for="newsletter"> Sign up for newsletter</label><br>
+                  <input type="checkbox"  name="marketing" >
+                  <label for="marketing"> Use my information for marketing</label><br>
+                  <input type="checkbox"  name="emails" >
+                  <label for="emails"> Send me emails weekly</label>
+      
+                  <br><br>
+                  <label for="payment">Choose a payment method:</label>
+                  <select  name="payment">
+                  <option value="visa">Visa Card</option>
+                  <option value="mastercard">Mastercard</option>
+                  <option value="bitcoin">Bitcoin</option>
+                  <option value="cash">Cash</option>
+                  </select>
+                  <br><br>
+                  <label for="payment">Add attachment</label><br>
+                  <input type="file"  name="file" >
+                  <br><br>
+                  <label for="birthday">Birthday</label><br>
+                  <input type="date"  name="birthday" >
+              </fieldset>
+              <br>
+              <button type="submit" >
+                <a href="formsent.html">Submit</a>
+            </button>
+              
+        </fieldset>   
+    </form>
+</body>
+</html>
